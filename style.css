@@ -1,26 +1,11 @@
 body {
   margin:0 auto;
 }
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-size: 25px;
-}
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #757575;
-    font-size: 20px;
-}
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000000;
     font-size: 22px;
     font-weight: 500;
-}
-.text-line {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #757575;
-    line-height: 1.9;
 }
 .menu {
   background-color:#DADF9E;
@@ -30,45 +15,26 @@ h3 {
   position: fixed; top: 0;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-nav ul li  {
+.nav-item  {
     list-style-type: none;
     display: inline;
     margin-right: 12px;
     text-decoration: none;
 }
-li a {
+.nav-link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     text-decoration: none;
     padding: 10px 18px;
     border-radius: 4px;
 }
-li a:active {
+.nav-link:active {
     background-color: rgba(0,0,0,0.2);
 }
-li a:hover {
+.nav-link:hover {
     box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
 
-.main-text {
-    display: block;
-   /* width: 100%;*/
-    margin-top: 7%;
-    margin-left: 2%;
-    margin-right: 2%;
-    text-decoration-color: #000;
-}
-.content {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-}
-.acme-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 2%;
-}
 #log-in {
     margin-top: 12%;
 }
@@ -154,30 +120,8 @@ input[type=reset] {
 .clear {
     clear: both;
 }
-/*-------------------------------------------------------------------------------------------------- mobile --*/
+
 @media screen and (max-device-width: 400px) {
-    h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #000;
-        font-size: 25px;
-    }
-    h2 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #757575;
-        font-size: 20px;
-        margin-top: 10%;
-    }
-    h3 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #000000;
-        font-size: 50px;
-        font-weight: 500;
-    }
-    .text-line {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #757575;
-        line-height: 1.9;
-    }
     .menu {
     background-color:#DADF9E;
     width: 100%;
@@ -186,13 +130,13 @@ input[type=reset] {
     position: fixed; top: 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    nav ul li  {
+    .nav-item  {
         list-style-type: none;
         display: inline;
         margin-right: 12px;
         text-decoration: none;
     }
-    li a {
+    .nav-link {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #fff;
         text-decoration: none;
@@ -200,32 +144,13 @@ input[type=reset] {
         border-radius: 4px;
         font-size: 46px;
     }
-    li a:active {
+    .nav-link:active {
         background-color: rgba(0,0,0,0.2);
     }
-    li a:hover {
+    .nav-link:hover {
         box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
     }
 
-    .main-text {
-        display: block;
-    /* width: 100%;*/
-        margin-top: 20%;
-        margin-left: 2%;
-        margin-right: 2%;
-        text-decoration-color: #000;
-    }
-    .content {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #000;
-    }
-    .acme-text {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #000;
-        font-size: 25px;
-        text-align: center;
-        margin-top: 2%;
-    }
     #log-in {
         margin-top: 28%;
     }
